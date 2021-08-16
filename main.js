@@ -15,3 +15,14 @@ for(const link of links){
         nav.classList.remove('show');
     })
 }
+
+//carousel
+const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    pagination:{
+        el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true
+
+})

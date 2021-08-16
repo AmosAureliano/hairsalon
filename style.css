@@ -265,6 +265,15 @@ nav.show .icon-close{
 .testimonial{
     background-color: var(--secondary-color);
 }
+#testimonials header{
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+#testimonials .container{
+    margin-right: 0;
+    margin-left: 0;
+}
 #testimonials blockquote{
     padding: 2rem;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
@@ -294,4 +303,14 @@ nav.show .icon-close{
     object-fit: cover;
     clip-path: circle();
     margin-right: 0.5rem;
+}
+
+/* Swiper */
+
+.swiper-slide{
+    height: auto;
+    padding: 4rem 1rem;
+}
+.swiper-pagination-bullet-active{
+    background: var(--text-color-specifc);
 }
