@@ -314,3 +314,44 @@ nav.show .icon-close{
 .swiper-pagination-bullet-active{
     background: var(--text-color-specifc);
 }
+
+/*----- CONTACT -----*/
+#contact .grid{
+    gap: 4rem;
+}
+#contact .text p{
+    margin-bottom: 2rem;
+}
+#contact .button i{
+    font-size: 1.5rem;
+    margin-right: 0.625rem;
+}
+
+/*------ FOOTER -------*/
+footer{
+    background-color: var(--primary-color);
+}
+footer .container{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+/*Back to Top*/
+.back-to-top{
+    background-color: var(--text-color-specifc);
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem 1.2rem;
+    border-radius: 0.25rem;
+    color: var(--text-color-simple);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.back-to-top.show{
+    visibility: visible;
+    opacity: 1;
+}
