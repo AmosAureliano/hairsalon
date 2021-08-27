@@ -37,9 +37,9 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(`#home .text, #home .image,
-    #about .image, #about .text, #services heaader, #services .card,
+    #about .image, #about .text, #services heaader, 
     #testimonials header, #testimonials .testimonials
-`, { interval: 100})
+`, { interval: 90})
 
 
 //Back to top

@@ -263,7 +263,7 @@ nav.show .icon-close{
 }
 
 .testimonial{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 #testimonials header{
     margin-bottom: 0;
@@ -275,6 +275,7 @@ nav.show .icon-close{
     margin-left: 0;
 }
 #testimonials blockquote{
+    background-color: var(--secondary-color);
     padding: 2rem;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
     border-radius: 0.25rem;
@@ -354,4 +355,67 @@ footer .container{
 .back-to-top.show{
     visibility: visible;
     opacity: 1;
+}
+
+
+
+/*-----BREAKPOINTS-----*/
+@media(min-width: 992px){
+
+    p{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2.25rem;
+    }
+    #header .container{
+        padding: 0 10rem;
+    }
+    #home .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem 10rem 0rem 10rem;
+    }
+    #about .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem;
+    }
+    
+    #about .image, #about .text{
+        width: 50%;
+    }
+    #about .image{
+        margin-left: 10rem;
+    }
+    #about img{
+        width: 20rem;
+    }
+    #about .image::before{
+        width: 20rem; 
+        left: -23%;
+    }
+    #services .container{
+        justify-content: center;
+        align-items: center;
+        padding: 0 10rem;
+    }
+    #services .cards{
+        display: flex;
+        flex-direction: row;
+    } 
+    .card{
+        width: 30%;
+    }
+    #testimonials .container{
+      padding: 0 10rem;
+    }
+    #contact .container{
+        
+        padding: 0 10rem;
+    }
 }
